@@ -3,18 +3,21 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  return (array[0])
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  return (array[array.length - 1])
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  return array.length
 }
 
 
@@ -23,6 +26,12 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  j=0
+  for (let c=0; c<array.length; c++) {
+    edit=array[j] + 1
+    j=j+1
+  }
+  return edit
 }
 
 
@@ -61,6 +70,13 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  j=0
+  l=0
+  for (let c=0; c<numeros.length; c++) {
+    j=j+numeros[l]
+    l=l+1
+  }
+  return j
 }
 
 
